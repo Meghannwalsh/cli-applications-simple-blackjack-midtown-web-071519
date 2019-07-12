@@ -37,7 +37,7 @@ end
 
 def hit?
   prompt_user
-  answer = get_user_input.to_i
+  answer = get_user_input
   if answer == 'h'
     deal_card
   end
