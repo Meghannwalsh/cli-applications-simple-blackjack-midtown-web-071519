@@ -19,7 +19,7 @@ def prompt_user
 end
 
 def get_user_input
-  answer = gets.chomp
+  answer = gets.chomp.to_i
   answer
   # code #get_user_input here
 end
